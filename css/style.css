@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset END */
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #EAEAE2;
+}
+.wrap {
+	position: relative;
+}
+
+/* left_area */
+.left_area {
+	width: 25%;
+    min-height: 100%;
+    position: absolute; left: 0;
+}
+
+/* logo */
+.logo img{
+    padding-top: 20px;
+}
+
+/* menu style共同設定 */
+.menu .style{
+    width: 80%;
+    background-color:#fff;
+    border: 3px solid #BBBCBC;
+    margin: 0 auto 25px auto;    
+}
+.li_style{
+    width: 98%;
+    height: 44px;
+    border-bottom: 1px solid #fff;
+    background-image: url(../img/list_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto 1px auto;
+}
+.a_style{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    font-family:'Microsoft JhengHei';
+    color: #fff;
+    text-decoration: none;
+    padding-left: 40px;
+    position: relative;
+}
+.a_style:hover{
+    background-color: #313230;
+}
+.bar{
+    width: 98%;
+    height: 7px;
+    margin: 3px auto 0px auto;
+}
+
+/* menu_block01 */
+.menu_block01 {
+    height: 195px;
+}
+.list_bar01{
+    background-color: #E3619F;
+}
+
+/* menu_block02 */
+.menu_block02 {	
+    height: 287px;
+}
+.list_bar02{
+    background-color: #F1E900;
+}
+
+/* menu_block03 */
+.menu_block03 {	
+    height: 57px;
+}
+.list_bar03{
+    background-color: #A2CA0F;
+}
+
+/* menu_block04 */
+.menu_block04 {	
+    height: 57px;
+}
+.list_bar04{
+    background-color: #7178B8;
+}
+
+/* contact */
+.contact{
+    width: 80%;
+    height: 120px;
+    background-color:#fff;
+    border: 3px solid #BBBCBC;
+    margin: 0 auto 25px auto;
+
+}
+.contact_information {
+	width: 98%;
+    height: 94%;
+    background-color:#BBBCBC;
+    margin: 3px auto 1px auto;
+    color: #000;
+    font-family:'Microsoft JhengHei';
+    
+}
+.contact_information h2,p {
+    line-height: 25px;
+    font-weight: bold;
+}
+.contact_information>h2{
+    font-size: 16px;
+    padding: 5px 15px 3px;
+}
+.contact_information p{
+    font-size: 5px;
+    padding-left: 15px;
+}
+
+/* right_area */
+.right_area {
+	width: 75%;
+    min-height: 100%;
+    position: absolute; right: 0;
+}
+
+/* content */
+.content {
+	width: 96%;
+    height: 944px;
+    background-color: #313230;
+    margin-top: 95px;
+    margin-bottom: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    border: 4px solid #BBBCBC;
+}
+.borderline{
+    height: 938px;
+    border: 3px solid #fff;
+}
+
+/* topSide */
+.topSide{
+    height: 84px;
+    position: relative;
+}
+.topSide_01{
+    border-top: 10px solid #E3619F;
+}
+.topSide_02{
+    border-top: 10px solid #F1E900;
+}
+.topSide_03{
+    border-top: 10px solid #A2CA0F;
+}
+.topSide_04{
+    border-top: 10px solid #7178B8;
+}
+.topSide h1 {
+	display: inline-block; height: 45px;
+    position: absolute; top:15px; left: 75px;
+    font-size: 36px;
+    font-family: 'Microsoft JhengHei';
+    color: #fff;
+    line-height: 45px;
+}
+.topSide a{
+	display: inline-block;
+    position: absolute; top: 30px; right: 38px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.tag{
+    width: 55px;
+    height: 45px;
+    position: absolute; top:15px; left:0;
+}
+.tag_01{
+    background-color: #E3619F;
+}
+.tag_02{
+    background-color: #F1E900;
+}
+.tag_03{
+    background-color: #A2CA0F;
+}
+.tag_04{
+    background-color: #7178B8;
+}
+.tagline{
+    width: 48px;
+    height: 45px;
+    border-right: 3px solid #313230;
+    position: absolute; top:0; left:0;
+}
+
+/* bottomSide */
+.bottomSide {
+	width: 92%;
+    height: 810px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 3px solid #C5C6C8;
+    position: relative;
+}
+.bottomSide img{
+	position: absolute; bottom: 30px; right: 30px;
+}
+.con_text img{
+	position: absolute;
+}
+.con_text img.pic2_1{
+    top: 100px;
+    left: 120px;
+}
+.con_text img.pic2_2{
+    top: 130px;
+    left: 50px;
+}
+.con_text img.pic2_3{
+    top: 100px;
+    left: 50px;
+    width: 90%;
+}
+.con_text img.pic2_4{
+    top: 130px;
+    left: 60px;
+    width: 50%;
+    height:70%
+}
+/* title */
+.title{
+    height: 80px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.title_01{
+    border-bottom: 3px solid #E3619F;
+}
+.title_02{
+    border-bottom: 3px solid #F1E900;
+}
+.title_03{
+    border-bottom: 3px solid #A2CA0F;
+}
+.title_04{
+    border-bottom: 3px solid #7178B8;
+}
+
+.title h2{
+    display: block; width: 50%;
+    font-size: 25px;
+    font-family: 'Microsoft JhengHei';
+    position: absolute; bottom: 0; left: 20px;
+    border-left: 5px solid #E3619F;
+    margin-bottom: 8px;
+    padding-left: 15px; 
+}
+.title .h2_01{
+    border-left: 5px solid #E3619F;
+}
+.title .h2_02{
+    border-left: 5px solid #F1E900;
+}
+.title .h2_03{
+    border-left: 5px solid #A2CA0F;
+}
+.title .h2_04{
+    border-left: 5px solid #7178B8;
+}
+/*con_text*/
+.con_text {
+	padding: 0 60px;
+}
+.con_text p{
+    padding-bottom: 15px;
+    font-family: 'Microsoft JhengHei';
+    font-size: 14px;
+}
+.p_06, .p_07 {
+	text-align: right;
+}
+
+/* TopSearch */
+.TopSearch input {
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute; top: 35px; right: 20px;
+    border: 2px solid #C5C6C8;
+    border-radius: 20px;
+    text-align: center;    
+}
+.TopSearch img{
+	position: absolute; top: 40px; right: 140px;
+}

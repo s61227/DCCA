@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2012 中華文創論壇</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+   <div class="wrap">
+        <div class="left_area">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <div class="style menu_block01">
+                   <div class="bar list_bar01"></div>
+                    <ul>
+                        <li class="li_style"><a href="pages/page1_1.html" class="a_style">文創論壇緣起</a></li>
+                        <li class="li_style"><a href="pages/page1_2.html" class="a_style">概述</a></li>
+                        <li class="li_style"><a href="pages/page1_3.html" class="a_style">組織</a></li>
+                        <li class="li_style"><a href="pages/page1_4.html" class="a_style">論壇特色</a></li>
+                    </ul>
+                </div>
+                <div class="style menu_block02">
+                    <div class="bar list_bar02"></div>
+                    <ul>
+                        <li class="li_style"><a href="pages/page2_1.html" class="a_style">時間表</a></li>
+                        <li class="li_style"><a href="pages/page2_2.html" class="a_style">議程</a></li>
+                        <li class="li_style"><a href="pages/page2_3.html" class="a_style">場地</a></li>
+                        <li class="li_style"><a href="pages/page2_4.html" class="a_style">專題演講</a></li>
+                        <li class="li_style"><a href="pages/page2_5.html" class="a_style">演講議題</a></li>
+                        <li class="li_style"><a href="pages/page2_6.html" class="a_style">特邀嘉賓</a></li>
+                    </ul>
+                </div>
+                <div class="style menu_block03">
+                    <div class="bar list_bar03"></div>
+                    <ul>
+                        <li class="li_style"><a href="pages/page3_1.html" class="a_style">論文上傳</a></li>
+                    </ul>
+                </div>
+                <div class="style menu_block04">
+                    <div class="bar list_bar04"></div>
+                    <ul>
+                        <li class="li_style"><a href="pages/page4_1.html" class="a_style">線上報名</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                   <div class="contact_information">
+                        <h2>聯絡我們</h2>
+                        <p>聯絡單位：中華數位文化創意發展協會</p>
+                        <p>活動聯絡人：林慧君</p>
+                        <p>聯絡電話：0922-167-595、2789-0780</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right_area">
+            <!-- 頁面內容載入區 -->
+        </div>
+    </div>
+</body>
+
+<script>
+$('.right_area').load('pages/page.html');
+//		menu項目點選載入內容
+		$('.menu a').click(function(){
+			$('.right_area').load($(this).attr('href'));
+			return false;
+	});
+
+</script>
+</html>
