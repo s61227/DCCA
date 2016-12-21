@@ -155,7 +155,7 @@ body{
     font-family:'Microsoft JhengHei';
     
 }
-.contact_information h2,p {
+.contact_information h2,.contact_information p {
     line-height: 25px;
     font-weight: bold;
 }
@@ -258,6 +258,17 @@ body{
     border: 3px solid #C5C6C8;
     position: relative;
 }
+.bottomSide_index{
+	width: 92%;
+    height: 810px;
+    background-image: url(../img/index_pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    border: 1px solid #C5C6C8;
+    position: relative;
+}
 .bottomSide img{
 	position: absolute; bottom: 30px; right: 30px;
 }
@@ -331,8 +342,34 @@ body{
     padding-bottom: 15px;
     font-family: 'Microsoft JhengHei';
     font-size: 14px;
+    line-height: 2;
 }
-.p_06, .p_07 {
+.con_text p.p_01 {
+	display: inline-block;
+    float: left;
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 2;
+}
+.con_text p.p_01 span {
+    font-weight: bold;
+    font-size: 20px;
+}
+.con_text p.p_02 {
+    font-size: 16px;
+}
+.con_text p.p_03 {
+    font-size: 18px;
+}
+.con_text ul li{
+    padding-bottom: 30px;
+    font-family: 'Microsoft JhengHei';
+    font-size: 16px;
+}
+.con_text ul li span{
+    font-weight: bold;
+}
+#page1{
 	text-align: right;
 }
 
